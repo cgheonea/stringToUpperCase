@@ -1,4 +1,5 @@
 <?php
+echo "<pre>";
 
 //Interacting with the user to input the amount to withdraw
 if(isset($_GET['i']) && !empty($_GET['i'])){
@@ -24,7 +25,9 @@ $finalWithdraw = $withdraw + $tax;
 //Checking if the final amount is higher than the user's debit amount. If yes, withdraw, else let the user know.
 if ($debitAmount > $finalWithdraw) {
 $remainDebit = $debitAmount - $finalWithdraw;
-echo "Please wait for the money! This transaction will cost you USD {$tax}. Your remaining debit will be USD {$remainDebit}.";
+echo "Debit available: {$debitAmount}$\nAmount to withdraw: {$withdraw}\nThis transaction will cost you {$tax}$\nYour remaining debit will be {$remainDebit}$\nOperation: Approved!";
 } else {
-    echo "You don't have enough debit to withdraw USD {$withdraw}! Your current debit is USD {$debitAmount}.";
+    echo "Debit available: {$debitAmount}\nThis transaction would deduct {$finalWithdraw}$ from your account\nYou don't have enough debit to withdraw {$withdraw}$!\n";
 }
+
+echo "</pre>";
