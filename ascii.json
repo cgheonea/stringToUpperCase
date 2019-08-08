@@ -1,0 +1,898 @@
+[
+  {
+    "Dec": 0,
+    "Hex": 0,
+    "Unicode": "U+0000",
+    "Char": "NUL",
+    "Name": "Null"
+  },
+  {
+    "Dec": 1,
+    "Hex": 1,
+    "Unicode": "U+0001",
+    "Char": "STX",
+    "Name": "Start of Header"
+  },
+  {
+    "Dec": 2,
+    "Hex": 2,
+    "Unicode": "U+0002",
+    "Char": "SOT",
+    "Name": "Start of Text"
+  },
+  {
+    "Dec": 3,
+    "Hex": 3,
+    "Unicode": "U+0003",
+    "Char": "ETX",
+    "Name": "End of Text"
+  },
+  {
+    "Dec": 4,
+    "Hex": 4,
+    "Unicode": "U+0004",
+    "Char": "EOT",
+    "Name": "End of Transmission"
+  },
+  {
+    "Dec": 5,
+    "Hex": 5,
+    "Unicode": "U+0005",
+    "Char": "ENQ",
+    "Name": "Enquiry"
+  },
+  {
+    "Dec": 6,
+    "Hex": 6,
+    "Unicode": "U+0006",
+    "Char": "ACK",
+    "Name": "Acknowledge"
+  },
+  {
+    "Dec": 7,
+    "Hex": 7,
+    "Unicode": "U+0007",
+    "Char": "BEL",
+    "Name": "Bell"
+  },
+  {
+    "Dec": 8,
+    "Hex": 8,
+    "Unicode": "U+0008",
+    "Char": "BS",
+    "Name": "BackSpace"
+  },
+  {
+    "Dec": 9,
+    "Hex": 9,
+    "Unicode": "U+0009",
+    "Char": "HT",
+    "Name": "Horizontal Tabulation"
+  },
+  {
+    "Dec": 10,
+    "Hex": "0A",
+    "Unicode": "U+000A",
+    "Char": "LF",
+    "Name": "Line Feed"
+  },
+  {
+    "Dec": 11,
+    "Hex": "0B",
+    "Unicode": "U+000B",
+    "Char": "VT",
+    "Name": "Vertical Tabulation"
+  },
+  {
+    "Dec": 12,
+    "Hex": "0C",
+    "Unicode": "U+000C",
+    "Char": "FF",
+    "Name": "Form Feed"
+  },
+  {
+    "Dec": 13,
+    "Hex": "0D",
+    "Unicode": "U+000D",
+    "Char": "CR",
+    "Name": "Carriage Return"
+  },
+  {
+    "Dec": 14,
+    "Hex": "0E",
+    "Unicode": "U+000E",
+    "Char": "SO",
+    "Name": "Shift Out"
+  },
+  {
+    "Dec": 15,
+    "Hex": "0F",
+    "Unicode": "U+000F",
+    "Char": "SI",
+    "Name": "Shift In"
+  },
+  {
+    "Dec": 16,
+    "Hex": 10,
+    "Unicode": "U+0010",
+    "Char": "DLE",
+    "Name": "Data Link Escape"
+  },
+  {
+    "Dec": 17,
+    "Hex": 11,
+    "Unicode": "U+0011",
+    "Char": "DC1",
+    "Name": "Device Control 1 (XON)"
+  },
+  {
+    "Dec": 18,
+    "Hex": 12,
+    "Unicode": "U+0012",
+    "Char": "DC2",
+    "Name": "Device Control 2"
+  },
+  {
+    "Dec": 19,
+    "Hex": 13,
+    "Unicode": "U+0013",
+    "Char": "DC3",
+    "Name": "Device Control 3 (XOFF)"
+  },
+  {
+    "Dec": 20,
+    "Hex": 14,
+    "Unicode": "U+0014",
+    "Char": "DC4",
+    "Name": "Device Control 4"
+  },
+  {
+    "Dec": 21,
+    "Hex": 15,
+    "Unicode": "U+0015",
+    "Char": "NAK",
+    "Name": "Negative acknowledge"
+  },
+  {
+    "Dec": 22,
+    "Hex": 16,
+    "Unicode": "U+0016",
+    "Char": "SYN",
+    "Name": "Synchronous Idle"
+  },
+  {
+    "Dec": 23,
+    "Hex": 17,
+    "Unicode": "U+0017",
+    "Char": "ETB",
+    "Name": "End of Transmission Block"
+  },
+  {
+    "Dec": 24,
+    "Hex": 18,
+    "Unicode": "U+0018",
+    "Char": "CAN",
+    "Name": "Cancel"
+  },
+  {
+    "Dec": 25,
+    "Hex": 19,
+    "Unicode": "U+0019",
+    "Char": "EM",
+    "Name": "End of Medium"
+  },
+  {
+    "Dec": 26,
+    "Hex": "1A",
+    "Unicode": "U+001A",
+    "Char": "SUB",
+    "Name": "Substitute"
+  },
+  {
+    "Dec": 27,
+    "Hex": "1B",
+    "Unicode": "U+001B",
+    "Char": "ESC",
+    "Name": "Escape"
+  },
+  {
+    "Dec": 28,
+    "Hex": "1C",
+    "Unicode": "U+001C",
+    "Char": "FS",
+    "Name": "File Separator"
+  },
+  {
+    "Dec": 29,
+    "Hex": "1D",
+    "Unicode": "U+001D",
+    "Char": "GS",
+    "Name": "Group Separator"
+  },
+  {
+    "Dec": 30,
+    "Hex": "1E",
+    "Unicode": "U+001E",
+    "Char": "RS",
+    "Name": "Record Separator"
+  },
+  {
+    "Dec": 31,
+    "Hex": "1F",
+    "Unicode": "U+001F",
+    "Char": "US",
+    "Name": "Unit Separator"
+  },
+  {
+    "Dec": 32,
+    "Hex": 20,
+    "Unicode": "U+0020",
+    "Char": "[Space]",
+    "Name": "Space"
+  },
+  {
+    "Dec": 33,
+    "Hex": 21,
+    "Unicode": "U+0021",
+    "Char": "!",
+    "Name": "Exclamation mark"
+  },
+  {
+    "Dec": 34,
+    "Hex": 22,
+    "Unicode": "U+0022",
+    "Char": "",
+    "Name": "Quotes"
+  },
+  {
+    "Dec": 35,
+    "Hex": 23,
+    "Unicode": "U+0023",
+    "Char": "#",
+    "Name": "Hash"
+  },
+  {
+    "Dec": 36,
+    "Hex": 24,
+    "Unicode": "U+0024",
+    "Char": "$",
+    "Name": "Dollar"
+  },
+  {
+    "Dec": 37,
+    "Hex": 25,
+    "Unicode": "U+0025",
+    "Char": "%",
+    "Name": "Percent"
+  },
+  {
+    "Dec": 38,
+    "Hex": 26,
+    "Unicode": "U+0026",
+    "Char": "&",
+    "Name": "Ampersand"
+  },
+  {
+    "Dec": 39,
+    "Hex": 27,
+    "Unicode": "U+0027",
+    "Char": "",
+    "Name": "Apostrophe"
+  },
+  {
+    "Dec": 40,
+    "Hex": 28,
+    "Unicode": "U+0028",
+    "Char": "(",
+    "Name": "Open bracket"
+  },
+  {
+    "Dec": 41,
+    "Hex": 29,
+    "Unicode": "U+0029",
+    "Char": ")",
+    "Name": "Close bracket"
+  },
+  {
+    "Dec": 42,
+    "Hex": "2A",
+    "Unicode": "U+002A",
+    "Char": "*",
+    "Name": "Asterisk"
+  },
+  {
+    "Dec": 43,
+    "Hex": "2B",
+    "Unicode": "U+002B",
+    "Char": "#ERROR!",
+    "Name": "Plus"
+  },
+  {
+    "Dec": 44,
+    "Hex": "2C",
+    "Unicode": "U+002C",
+    "Char": ",",
+    "Name": "Comma"
+  },
+  {
+    "Dec": 45,
+    "Hex": "2D",
+    "Unicode": "U+002D",
+    "Char": "-",
+    "Name": "Dash"
+  },
+  {
+    "Dec": 46,
+    "Hex": "2E",
+    "Unicode": "U+002E",
+    "Char": ".",
+    "Name": "Full stop"
+  },
+  {
+    "Dec": 47,
+    "Hex": "2F",
+    "Unicode": "U+002F",
+    "Char": "/",
+    "Name": "Slash"
+  },
+  {
+    "Dec": 48,
+    "Hex": 30,
+    "Unicode": "U+0030",
+    "Char": 0,
+    "Name": "Zero"
+  },
+  {
+    "Dec": 49,
+    "Hex": 31,
+    "Unicode": "U+0031",
+    "Char": 1,
+    "Name": "One"
+  },
+  {
+    "Dec": 50,
+    "Hex": 32,
+    "Unicode": "U+0032",
+    "Char": 2,
+    "Name": "Two"
+  },
+  {
+    "Dec": 51,
+    "Hex": 33,
+    "Unicode": "U+0033",
+    "Char": 3,
+    "Name": "Three"
+  },
+  {
+    "Dec": 52,
+    "Hex": 34,
+    "Unicode": "U+0034",
+    "Char": 4,
+    "Name": "Four"
+  },
+  {
+    "Dec": 53,
+    "Hex": 35,
+    "Unicode": "U+0035",
+    "Char": 5,
+    "Name": "Five"
+  },
+  {
+    "Dec": 54,
+    "Hex": 36,
+    "Unicode": "U+0036",
+    "Char": 6,
+    "Name": "Six"
+  },
+  {
+    "Dec": 55,
+    "Hex": 37,
+    "Unicode": "U+0037",
+    "Char": 7,
+    "Name": "Seven"
+  },
+  {
+    "Dec": 56,
+    "Hex": 38,
+    "Unicode": "U+0038",
+    "Char": 8,
+    "Name": "Eight"
+  },
+  {
+    "Dec": 57,
+    "Hex": 39,
+    "Unicode": "U+0039",
+    "Char": 9,
+    "Name": "Nine"
+  },
+  {
+    "Dec": 58,
+    "Hex": "3A",
+    "Unicode": "U+003A",
+    "Char": ":",
+    "Name": "Colon"
+  },
+  {
+    "Dec": 59,
+    "Hex": "3B",
+    "Unicode": "U+003B",
+    "Char": ";",
+    "Name": "Semi-colon"
+  },
+  {
+    "Dec": 60,
+    "Hex": "3C",
+    "Unicode": "U+003C",
+    "Char": "<",
+    "Name": "Less than"
+  },
+  {
+    "Dec": 61,
+    "Hex": "3D",
+    "Unicode": "U+003D",
+    "Char": "#ERROR!",
+    "Name": "Equals"
+  },
+  {
+    "Dec": 62,
+    "Hex": "3E",
+    "Unicode": "U+003E",
+    "Char": ">",
+    "Name": "Greater than"
+  },
+  {
+    "Dec": 63,
+    "Hex": "3F",
+    "Unicode": "U+003F",
+    "Char": "?",
+    "Name": "Question mark"
+  },
+  {
+    "Dec": 64,
+    "Hex": 40,
+    "Unicode": "U+0040",
+    "Char": "@",
+    "Name": "At"
+  },
+  {
+    "Dec": 65,
+    "Hex": 41,
+    "Unicode": "U+0041",
+    "Char": "A",
+    "Name": "Uppercase A"
+  },
+  {
+    "Dec": 66,
+    "Hex": 42,
+    "Unicode": "U+0042",
+    "Char": "B",
+    "Name": "Uppercase B"
+  },
+  {
+    "Dec": 67,
+    "Hex": 43,
+    "Unicode": "U+0043",
+    "Char": "C",
+    "Name": "Uppercase C"
+  },
+  {
+    "Dec": 68,
+    "Hex": 44,
+    "Unicode": "U+0044",
+    "Char": "D",
+    "Name": "Uppercase D"
+  },
+  {
+    "Dec": 69,
+    "Hex": 45,
+    "Unicode": "U+0045",
+    "Char": "E",
+    "Name": "Uppercase E"
+  },
+  {
+    "Dec": 70,
+    "Hex": 46,
+    "Unicode": "U+0046",
+    "Char": "F",
+    "Name": "Uppercase F"
+  },
+  {
+    "Dec": 71,
+    "Hex": 47,
+    "Unicode": "U+0047",
+    "Char": "G",
+    "Name": "Uppercase G"
+  },
+  {
+    "Dec": 72,
+    "Hex": 48,
+    "Unicode": "U+0048",
+    "Char": "H",
+    "Name": "Uppercase H"
+  },
+  {
+    "Dec": 73,
+    "Hex": 49,
+    "Unicode": "U+0049",
+    "Char": "I",
+    "Name": "Uppercase I"
+  },
+  {
+    "Dec": 74,
+    "Hex": "4A",
+    "Unicode": "U+004A",
+    "Char": "J",
+    "Name": "Uppercase J"
+  },
+  {
+    "Dec": 75,
+    "Hex": "4B",
+    "Unicode": "U+004B",
+    "Char": "K",
+    "Name": "Uppercase K"
+  },
+  {
+    "Dec": 76,
+    "Hex": "4C",
+    "Unicode": "U+004C",
+    "Char": "L",
+    "Name": "Uppercase L"
+  },
+  {
+    "Dec": 77,
+    "Hex": "4D",
+    "Unicode": "U+004D",
+    "Char": "M",
+    "Name": "Uppercase M"
+  },
+  {
+    "Dec": 78,
+    "Hex": "4E",
+    "Unicode": "U+004E",
+    "Char": "N",
+    "Name": "Uppercase N"
+  },
+  {
+    "Dec": 79,
+    "Hex": "4F",
+    "Unicode": "U+004F",
+    "Char": "O",
+    "Name": "Uppercase O"
+  },
+  {
+    "Dec": 80,
+    "Hex": 50,
+    "Unicode": "U+0050",
+    "Char": "P",
+    "Name": "Uppercase P"
+  },
+  {
+    "Dec": 81,
+    "Hex": 51,
+    "Unicode": "U+0051",
+    "Char": "Q",
+    "Name": "Uppercase Q"
+  },
+  {
+    "Dec": 82,
+    "Hex": 52,
+    "Unicode": "U+0052",
+    "Char": "R",
+    "Name": "Uppercase R"
+  },
+  {
+    "Dec": 83,
+    "Hex": 53,
+    "Unicode": "U+0053",
+    "Char": "S",
+    "Name": "Uppercase S"
+  },
+  {
+    "Dec": 84,
+    "Hex": 54,
+    "Unicode": "U+0054",
+    "Char": "T",
+    "Name": "Uppercase T"
+  },
+  {
+    "Dec": 85,
+    "Hex": 55,
+    "Unicode": "U+0055",
+    "Char": "U",
+    "Name": "Uppercase U"
+  },
+  {
+    "Dec": 86,
+    "Hex": 56,
+    "Unicode": "U+0056",
+    "Char": "V",
+    "Name": "Uppercase V"
+  },
+  {
+    "Dec": 87,
+    "Hex": 57,
+    "Unicode": "U+0057",
+    "Char": "W",
+    "Name": "Uppercase W"
+  },
+  {
+    "Dec": 88,
+    "Hex": 58,
+    "Unicode": "U+0058",
+    "Char": "X",
+    "Name": "Uppercase X"
+  },
+  {
+    "Dec": 89,
+    "Hex": 59,
+    "Unicode": "U+0059",
+    "Char": "Y",
+    "Name": "Uppercase Y"
+  },
+  {
+    "Dec": 90,
+    "Hex": "5A",
+    "Unicode": "U+005A",
+    "Char": "Z",
+    "Name": "Uppercase Z"
+  },
+  {
+    "Dec": 91,
+    "Hex": "5B",
+    "Unicode": "U+005B",
+    "Char": "[",
+    "Name": "Open square bracket"
+  },
+  {
+    "Dec": 92,
+    "Hex": "5C",
+    "Unicode": "U+005C",
+    "Char": "\\",
+    "Name": "Backslash"
+  },
+  {
+    "Dec": 93,
+    "Hex": "5D",
+    "Unicode": "U+005D",
+    "Char": "]",
+    "Name": "Close square bracket"
+  },
+  {
+    "Dec": 94,
+    "Hex": "5E",
+    "Unicode": "U+005E",
+    "Char": "^",
+    "Name": "Caret / hat"
+  },
+  {
+    "Dec": 95,
+    "Hex": "5F",
+    "Unicode": "U+005F",
+    "Char": "_",
+    "Name": "Underscore"
+  },
+  {
+    "Dec": 96,
+    "Hex": 60,
+    "Unicode": "U+0060",
+    "Char": "`",
+    "Name": "Grave accent"
+  },
+  {
+    "Dec": 97,
+    "Hex": 61,
+    "Unicode": "U+0061",
+    "Char": "a",
+    "Name": "Lowercase a"
+  },
+  {
+    "Dec": 98,
+    "Hex": 62,
+    "Unicode": "U+0062",
+    "Char": "b",
+    "Name": "Lowercase b"
+  },
+  {
+    "Dec": 99,
+    "Hex": 63,
+    "Unicode": "U+0063",
+    "Char": "c",
+    "Name": "Lowercase c"
+  },
+  {
+    "Dec": 100,
+    "Hex": 64,
+    "Unicode": "U+0064",
+    "Char": "d",
+    "Name": "Lowercase d"
+  },
+  {
+    "Dec": 101,
+    "Hex": 65,
+    "Unicode": "U+0065",
+    "Char": "e",
+    "Name": "Lowercase e"
+  },
+  {
+    "Dec": 102,
+    "Hex": 66,
+    "Unicode": "U+0066",
+    "Char": "f",
+    "Name": "Lowercase f"
+  },
+  {
+    "Dec": 103,
+    "Hex": 67,
+    "Unicode": "U+0067",
+    "Char": "g",
+    "Name": "Lowercase g"
+  },
+  {
+    "Dec": 104,
+    "Hex": 68,
+    "Unicode": "U+0068",
+    "Char": "h",
+    "Name": "Lowercase h"
+  },
+  {
+    "Dec": 105,
+    "Hex": 69,
+    "Unicode": "U+0069",
+    "Char": "i",
+    "Name": "Lowercase i"
+  },
+  {
+    "Dec": 106,
+    "Hex": "6A",
+    "Unicode": "U+006A",
+    "Char": "j",
+    "Name": "Lowercase j"
+  },
+  {
+    "Dec": 107,
+    "Hex": "6B",
+    "Unicode": "U+006B",
+    "Char": "k",
+    "Name": "Lowercase k"
+  },
+  {
+    "Dec": 108,
+    "Hex": "6C",
+    "Unicode": "U+006C",
+    "Char": "l",
+    "Name": "Lowercase l"
+  },
+  {
+    "Dec": 109,
+    "Hex": "6D",
+    "Unicode": "U+006D",
+    "Char": "m",
+    "Name": "Lowercase m"
+  },
+  {
+    "Dec": 110,
+    "Hex": "6E",
+    "Unicode": "U+006E",
+    "Char": "n",
+    "Name": "Lowercase n"
+  },
+  {
+    "Dec": 111,
+    "Hex": "6F",
+    "Unicode": "U+006F",
+    "Char": "o",
+    "Name": "Lowercase o"
+  },
+  {
+    "Dec": 112,
+    "Hex": 70,
+    "Unicode": "U+0070",
+    "Char": "p",
+    "Name": "Lowercase p"
+  },
+  {
+    "Dec": 113,
+    "Hex": 71,
+    "Unicode": "U+0071",
+    "Char": "q",
+    "Name": "Lowercase q"
+  },
+  {
+    "Dec": 114,
+    "Hex": 72,
+    "Unicode": "U+0072",
+    "Char": "r",
+    "Name": "Lowercase r"
+  },
+  {
+    "Dec": 115,
+    "Hex": 73,
+    "Unicode": "U+0073",
+    "Char": "s",
+    "Name": "Lowercase s"
+  },
+  {
+    "Dec": 116,
+    "Hex": 74,
+    "Unicode": "U+0074",
+    "Char": "t",
+    "Name": "Lowercase t"
+  },
+  {
+    "Dec": 117,
+    "Hex": 75,
+    "Unicode": "U+0075",
+    "Char": "u",
+    "Name": "Lowercase u"
+  },
+  {
+    "Dec": 118,
+    "Hex": 76,
+    "Unicode": "U+0076",
+    "Char": "v",
+    "Name": "Lowercase v"
+  },
+  {
+    "Dec": 119,
+    "Hex": 77,
+    "Unicode": "U+0077",
+    "Char": "w",
+    "Name": "Lowercase w"
+  },
+  {
+    "Dec": 120,
+    "Hex": 78,
+    "Unicode": "U+0078",
+    "Char": "x",
+    "Name": "Lowercase x"
+  },
+  {
+    "Dec": 121,
+    "Hex": 79,
+    "Unicode": "U+0079",
+    "Char": "y",
+    "Name": "Lowercase y"
+  },
+  {
+    "Dec": 122,
+    "Hex": "7A",
+    "Unicode": "U+007A",
+    "Char": "z",
+    "Name": "Lowercase z"
+  },
+  {
+    "Dec": 123,
+    "Hex": "7B",
+    "Unicode": "U+007B",
+    "Char": "{",
+    "Name": "Open brace"
+  },
+  {
+    "Dec": 124,
+    "Hex": "7C",
+    "Unicode": "U+007C",
+    "Char": "|",
+    "Name": "Pipe"
+  },
+  {
+    "Dec": 125,
+    "Hex": "7D",
+    "Unicode": "U+007D",
+    "Char": "}",
+    "Name": "Close brace"
+  },
+  {
+    "Dec": 126,
+    "Hex": "7E",
+    "Unicode": "U+007E",
+    "Char": "~",
+    "Name": "Tilde"
+  },
+  {
+    "Dec": 127,
+    "Hex": "7F",
+    "Unicode": "U+007F",
+    "Char": "DEL",
+    "Name": "Delete"
+  }
+]
