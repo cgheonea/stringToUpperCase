@@ -5,7 +5,7 @@ echo '<pre>';
 if(isset($_GET['i']) && !empty($_GET['i'])){
     $sDigits = $_GET['i'];
 }else{
-    $sDigits = '28736283724672489438738349439';
+    $sDigits = '0184362648267154383812737';
 }
 
 echo "the numbers are: {$sDigits}\n";
@@ -35,10 +35,12 @@ foreach ($aDigits as $xDigit){
 echo "We found the following duplicates and unique digits in the given string: \n";
 foreach($duplicateDigits AS $key => $value){
     if($value === 1){
-       $color = '#0000FF';
+        $color = '#0000FF';
+        $times = 'time';
     }else{
         $color = '#FF0000';
+        $times = 'times';
     }
-    echo "<span style=\"color:{$color};text-align:center;\">{$key}, {$value} times</span>\n";
+    echo "<span style=\"color:{$color};text-align:center;\">{$key}, {$value} {$times}</span>\n";
 }
 echo '</pre>';
